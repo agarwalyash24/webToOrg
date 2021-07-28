@@ -56,10 +56,10 @@
                   </div>
                   <br/>
                   <div class="panel-body">
-					<form action="https://rbcuswm--appdev.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+					<!--<form action="https://rbcuswm--appdev.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 					   <input type=hidden name="orgid" value="00D6w0000004ac5">
 					   <input type=hidden name="retURL" value="https://agarwalyash24.github.io/webToOrg/ThankYouCase.html">
-					   <input type=hidden id="company" maxlength="80" name="company" size="20" type="text" class="form-control" value="RBC USA"/>
+					   <input type=hidden id="company" maxlength="80" name="company" size="20" type="text" class="form-control" value="RBC USA"/>-->
 						
                         <!--  ----------------------------------------------------------------------  -->
                         <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -67,7 +67,7 @@
                         <!--<input type="hidden" name="debug" value=1>                           
                         <input type="hidden" name="debugEmail" value="yasagarwal@deloitte.com">-->
                         <!--  ----------------------------------------------------------------------  -->
-                        <div class="row">
+                        <!--<div class="row">
                            <div class="col-xs-6 col-md-6">
                               <div class="form-group">
                                  <label for="Name">Name <span style="color:red;">*</span></label>
@@ -110,7 +110,7 @@
                               </div>
                            </div>
                         </div>
-                    </form>
+                    </form>-->
 					<form action="https://rbcuswm--appdev.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 					   <input type=hidden name="orgid" value="00D6w0000004ac5">
 					   <input type=hidden name="retURL" value="https://agarwalyash24.github.io/webToOrg/ThankYouCase.html">
@@ -124,20 +124,23 @@
 					   <div class="row">
 						  <div class="col-xs-6 col-md-6">
 							 <div class="form-group">
-								Account Holder Name:<input  id="00N3c000006glkU" maxlength="255" name="00N3c000006glkU" size="20" type="text" class="form-control"/><br>
+								<label for="Name">Name <span style="color:red;">*</span></label>
+								<input  id="00N3c000006glkU" maxlength="255" name="00N3c000006glkU" size="20" type="text" class="form-control"/><br>
 								<input type="hidden"  id="external" name="external" value="1" /><br>
 							 </div>
 						  </div>
 						  <div class="col-xs-6 col-md-6">
 							 <div class="form-group">
-								<label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" class="form-control"/><br>
+								<label for="subject">Subject<span style="color:red;">*</span></label>
+								<input  id="subject" maxlength="80" name="subject" size="20" type="text" class="form-control"/><br>
 							 </div>
 						  </div>
 					   </div>
 					   <div class="row">
 						  <div class="col-xs-6 col-md-6">
 							 <div class="form-group">
-								<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" class="form-control"/><br>
+								<label for="email">Email <span style="color:red;">*</span></label>
+								<input  id="email" maxlength="80" name="email" size="20" type="text" class="form-control"/><br>
 							 </div>
 						  </div>
 						  <div class="col-xs-6 col-md-6">
